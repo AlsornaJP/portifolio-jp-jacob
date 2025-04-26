@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "Oswald";
+  src: url(../Oswald/Oswald-VariableFont_wght.ttf);
+}
+body {
+  margin: 0px;
+  font-family: "Oswald";
+  background-color: #edebd7;
+}
+header {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+  height: 70px;
+  padding: 10px 5px 10px 5px;
+  color: #e3b23c;
+  background-color: #423e37;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.titulo_pag {
+  height: fit-content;
+  width: fit-content;
+}
+
+.cabecalho h1 {
+  padding-right: 10px;
+  border-right: #e3b23c solid 2px;
+  margin: 0px;
+}
+
+nav {
+  height: fit-content;
+  width: fit-content;
+}
+nav ul {
+  position: absolute;
+  top: 21px;
+  margin: 0;
+  padding-left: 400px;
+  list-style: none;
+  overflow: hidden;
+}
+nav li {
+  padding-bottom: 3px;
+  float: left;
+}
+nav li a {
+  color: #e3b23c;
+  font-size: 30px;
+  text-decoration: none;
+  padding-left: 15px;
+  margin-left: 15px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+nav li a:hover {
+  color: #a39594;
+}
+
+.titulos {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.tituloH2 {
+  color: #e3b23c;
+  margin: 0;
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: #423e37;
+}
+
+.ancora {
+  position: relative;
+}
+.macete {
+  position: absolute;
+  top: -100px;
+  left: 0;
+}
+
+main {
+  color: #423e37;
+  padding: 30px;
+}
+
+#quemSou {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+}
+
+img {
+  border: #423e37 solid 2px;
+  border-radius: 5%;
+  height: 500px;
+  width: auto;
+  margin-right: 32px;
+}
+
+article {
+  width: 500px;
+  margin: 30px;
+}
+
+.tituloArticle {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+hr {
+  height: 1px;
+  background-color: #423e37;
+}
+.conhecimentos {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.projetos {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.articleProjetos {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#iframeMedidor {
+  height: 500px;
+  width: 700px;
+  border: #423e37 solid 2px;
+}
+
+.experiencias {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.articleExperiencias {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  width: 100%;
+  background-color: #423e37;
+  color: #e3b23c;
+  text-align: center;
+}
+
+#copyright {
+  text-align: center;
+}
+
+footer a {
+  color: #e3b23c;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: #a39594;
+}
+footer p {
+  margin: 0;
+}
